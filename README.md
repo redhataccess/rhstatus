@@ -2,10 +2,15 @@
 
 Visualize uptime across various Red Hat sites.
 
-## Local Installation
+## Local Installation and development
 
-```text
+```bash
 npm install
+# In one console
+npm run hot-dev-server
+# In another console
+npm run start-dev
+# Navigate to http://foo.redhat.com/status
 ```
 
 ## Hot Module Replacement development server
