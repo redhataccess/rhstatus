@@ -1,0 +1,7 @@
+require("./index")({
+    env: 'development',
+    // I personally prefer a separateStylesheet for manipulating css in the browser
+    separateStylesheet: true,
+    prerender: true,
+    defaultPort: 8080
+});

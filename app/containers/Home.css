@@ -1,0 +1,32 @@
+body {
+    background: #eee;
+}
+
+/*.center-block {*/
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*float: none !important;*/
+/*}*/
+
+.home {
+    opacity: 1;
+}
+
+.home.loading {
+    opacity: 0.2;
+    transition: opacity 600ms;
+}
+
+.home .loadingElement {
+    display: none;
+}
+
+.home.loading .loadingElement {
+    display: inherit;
+}
+
+.loadingElement {
+    float: right;
+}
+
